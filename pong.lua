@@ -6,8 +6,8 @@ function pong.load()
   bip                 = love.audio.newSource("assets/audio/bip.ogg", "static")
   player_one_score    = 0
   player_two_score    = 0
-  ball_speed_x        = 150
-  ball_speed_y        = 150
+  ball_speed_x        = 250
+  ball_speed_y        = 250
 
   paddle_start_pos    = love.graphics.getHeight()/2
 
